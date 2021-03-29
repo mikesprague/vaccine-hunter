@@ -79,4 +79,4 @@ const checkForVaccineAppointments = async () => {
 
 setInterval(async () => {
   await checkForVaccineAppointments();
-}, 1 * 60 * 1000);
+}, 3 * 60 * 1000);
